@@ -20,13 +20,17 @@ function setupEvents(){
   var $learning       = $("#learning");
   var $intrigued      = $("#intrigued");
 
-  var $skills  = $("#skills");
+  var $confidentTech  = $("#confidentTech");
+  var $learningTech   = $("#learningTech");
+  var $intriguedTech  = $("#intriguedTech");
 
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
   $intrigued.on("click", showIntrigued);
 
-  $skills.hide();
+  $confidentTech.hide();
+  $learningTech.hide();
+  $intriguedTech.hide();
 }
 
 function showConfident(){
