@@ -26,7 +26,9 @@ function setupEvents(){
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
   $intrigued.on("click", showIntrigued);
-  $skills.hide();
+  $confidentTech.hide();
+  $learningTech.hide();
+  $intriguedTech.hide();
 }
 
 function showConfident(){
