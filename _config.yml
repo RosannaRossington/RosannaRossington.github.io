@@ -16,14 +16,12 @@ disqus_shortname: # disqus_shortname for disqus comment system
 # a new whidow will be open when link is clicked.
 #
 about:
-  - paragraph: ?link?, a simple Jekyll theme. Built by ?link?
+  - paragraph: ?link?, Rosanna Rossington ?link?
     text_align: center
     links:
-      - name: Book
-        url: https://github.com/kkninjae/book
+      - name: RosannaRossington
+        url: https://github.com/RosannaRossington
         external: true
-      - name: Lang Liu
-        url: http://kkninjae.com/about/
+      - name: Rosanna Rossington
+        url: http://www.rosannarossington.com
         external: false
-
-    
