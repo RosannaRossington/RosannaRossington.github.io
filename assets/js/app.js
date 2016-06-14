@@ -21,7 +21,9 @@ function setupEvents(){
   var $confident      = $("#confident");
   var $learning       = $("#learning");
   var $intrigued      = $("#intrigued");
-  var $skills         = $("#skills");
+  var $confidentTech  = $("#confidentTech");
+  var $learningTech  = $("#learningTech");
+  var $intriguedTech  = $("#intriguedTech");
 
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
@@ -46,7 +48,7 @@ function showLearning(){
   var $learningTech  = $("#learningTech");
 
   $(this).hide();
-  $understanding.fadeOut("500", function(){
+  $understanding.fadeOut("100", function(){
     $learningTech.show();
   });
 }
