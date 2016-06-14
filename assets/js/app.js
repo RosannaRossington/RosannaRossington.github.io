@@ -1,4 +1,5 @@
 console.log ("hello");
+
 $(start);
 
 function start(){
