@@ -16,7 +16,7 @@ disqus_shortname: # disqus_shortname for disqus comment system
 # a new whidow will be open when link is clicked.
 #
 about:
-  - paragraph: <p> Having worked in ecommerce roles using HTML and CSS and produced a theoretical website in my dissertation, I have always been intrigued by how technology can be used to merge the online and offline worlds. Eager to be able to create these ideas and see a project through to completion I decided General Assembly was the perfect environment for me to begin my career as a Web Developer. </p>?link?,?link?,?link?
+  - paragraph: Having worked in ecommerce roles using HTML and CSS and produced a theoretical website in my dissertation, I have always been intrigued by how technology can be used to merge the online and offline worlds. Eager to be able to create these ideas and see a project through to completion I decided General Assembly was the perfect environment for me to begin my career as a Web Developer. ?link?,?link?,?link?
     text_align: center
     links:
       - name: GitHub
