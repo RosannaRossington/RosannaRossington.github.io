@@ -2,19 +2,19 @@ console.log ("hello");
 $(start);
 
 function start(){
-  technologiesPage();
+  // technologiesPage();
   setupEvents();
 }
 
-function technologiesPage(){
-  return $.each([
-    "#confident",
-    "#learning",
-    "#intrigued"
-  ], function(element, value){
-    $(value).hide();
-  });
-}
+// function technologiesPage(){
+//   return $.each([
+//     "#confident",
+//     "#learning",
+//     "#intrigued"
+//   ], function(element, value){
+//     $(value).hide();
+//   });
+// }
 
 function setupEvents(){
   var $confident      = $("#confident");
