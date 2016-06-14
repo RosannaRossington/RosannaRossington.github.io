@@ -33,7 +33,25 @@ function showConfident(){
   $(this).hide();
   $understanding.fadeOut("500", function(){
     $confidentTech.show();
-    $learning.hide();
-    $intrigued.hide();
+  });
+}
+
+function showLearning(){
+  var $understanding  = $("#understanding");
+  var $learningTech  = $("#learningTech");
+
+  $(this).hide();
+  $understanding.fadeOut("500", function(){
+    $learningTech.show();
+  });
+}
+
+function showIntrigued(){
+  var $understanding  = $("#understanding");
+  var $intriguedTech  = $("#intriguedTech");
+
+  $(this).hide();
+  $understanding.fadeOut("500", function(){
+    $intriguedTech.show();
   });
 }
