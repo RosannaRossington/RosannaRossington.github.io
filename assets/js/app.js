@@ -9,9 +9,7 @@ function start(){
 
 function technologiesPage(){
   return $.each([
-    "#confident",
-    "#learning",
-    "#intrigued"
+    "#understanding"
   ], function(element, value){
     $(value).show();
   });
@@ -21,16 +19,14 @@ function setupEvents(){
   var $confident      = $("#confident");
   var $learning       = $("#learning");
   var $intrigued      = $("#intrigued");
-  var $confidentTech  = $("#confidentTech");
-  var $learningTech  = $("#learningTech");
-  var $intriguedTech  = $("#intriguedTech");
+
+  var $skills  = $("#skills");
 
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
   $intrigued.on("click", showIntrigued);
-  $confidentTech.hide();
-  $learningTech.hide();
-  $intriguedTech.hide();
+
+  $skills.hide();
 }
 
 function showConfident(){
