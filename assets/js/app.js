@@ -5,6 +5,7 @@ $(start);
 function start(){
   technologiesPage();
   setupEvents();
+  portfolioPage();
 }
 
 function technologiesPage(){
@@ -60,5 +61,13 @@ function showIntrigued(){
   $(this).hide();
   $understanding.fadeOut("500", function(){
     $intriguedTech.show();
+  });
+}
+
+function projectsPage(){
+  return $.each([
+    "#titles"
+  ], function(element, value){
+    $(value).show();
   });
 }
