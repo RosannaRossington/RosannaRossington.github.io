@@ -1,20 +1,11 @@
 title: Rosanna Rossington
 description: Portfolio & Blog
 url: # site url
-avatar: # path/to/avatar for index page. e.g. /assets/img/avatar.jpg
-favicon: # path/to/favicon for site. e.g. /assets/img/favicon.ico
+avatar: /assets/img/logo.png
+favicon: #/assets/img/favicon.ico
 google_analytics: # google analytics id
 disqus_shortname: # disqus_shortname for disqus comment system
 
-# Content for about page.
-# Each paragraph will be a <p> tag which is inserted to about
-# page. text_align is used to align the text. Default is left.
-# Other two values are center and right. If there are some links
-# in your paragraph, use '?link?' to take the place of a link.
-# And then write the real link under links. name is the link
-# text. url is the link. when external is set as true, then
-# a new whidow will be open when link is clicked.
-#
 about:
   - paragraph: Having worked in ecommerce roles using HTML and CSS and produced a theoretical website in my dissertation, I have always been intrigued by how technology can be used to merge the online and offline worlds. Eager to be able to create these ideas and see a project through to completion I decided General Assembly was the perfect environment for me to begin my career as a Web Developer. <p>?link?,?link?,?link?</p>
     text_align: center
