@@ -530,22 +530,20 @@ img {
 /****Technologies****/
 #technologies {
   background-color: pink;
-  #confidentTech {
-    ul {
-      li {
-        list-style-type: none;
-        img {
-          height: 50px;
-          width: 50px;
-        }
-      }
-    }
-  }
 }
+
 #confident {
   font-size: 10px;
 }
 
+li {
+  list-style-type: none;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
 /****Portfolio****/
 #portfolio {
   background-color: green;
