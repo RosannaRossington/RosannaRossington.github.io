@@ -64,7 +64,7 @@ function showIntrigued(){
   });
 }
 
-function projectsPage(){
+function portfolioPage(){
   return $.each([
     "#titles"
   ], function(element, value){
