@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project 4 Providence
+title: Project Providence
 date: 2016-07-03
 tags: english
 category: blog
