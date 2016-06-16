@@ -19,5 +19,5 @@ Technologies
 
 Links
   -----------
- [GitHub] (https://github.com/RosannaRossington/wdi-project-3)
  [LondonVice](https://london-vice.herokuapp.com/)
+ [GitHub](https://github.com/RosannaRossington/wdi-project-3)

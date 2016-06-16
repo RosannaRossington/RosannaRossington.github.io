@@ -527,6 +527,9 @@ img {
   }
 }
 
+p {
+  text-align: center;
+}
 /****Technologies****/
 #technologies {
   background-color: pink;
@@ -544,7 +547,9 @@ img {
   height: 50px;
   width: 50px;
 }
+
 /****Portfolio****/
 #portfolio {
-  background-color: green;
+  display: inline-block;
+  list-style: none;
 }
