@@ -45,7 +45,7 @@ function showConfident(){
   $understanding.fadeOut("100", function(){
     $confidentTech.show();
     $gaIntro.hide();
-    $understanding.hide();
+    // $understanding.hide();
   });
 }
 
