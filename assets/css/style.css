@@ -132,6 +132,7 @@ img {
   right: 0;
   left: 0;
   padding-top: 0;
+  text-align: center;
 }
 /* =======================
  * page layout
@@ -597,6 +598,23 @@ img {
   .index-wrapper {
     position: absolute;
     top: 40%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+  }
+}
+
+.second_index-wrapper {
+  padding-top: 15%;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .second_index-wrapper {
+    position: absolute;
+    top: 20%;
     right: 0;
     left: 0;
     margin-right: auto;
