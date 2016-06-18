@@ -25,6 +25,9 @@ function setupEvents(){
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
 
+  var $gaIntro        = $("#gaIntro");
+  var $understanding  = $("#understanding");
+
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
   $intrigued.on("click", showIntrigued);
@@ -41,6 +44,8 @@ function showConfident(){
   $(this).hide();
   $understanding.fadeOut("100", function(){
     $confidentTech.show();
+    $gaIntro.hide();
+    $understanding.hide();
   });
 }
 
@@ -51,6 +56,8 @@ function showLearning(){
   $(this).hide();
   $understanding.fadeOut("100", function(){
     $learningTech.show();
+    $gaIntro.hide();
+    $understanding.hide();
   });
 }
 
@@ -61,6 +68,8 @@ function showIntrigued(){
   $(this).hide();
   $understanding.fadeOut("500", function(){
     $intriguedTech.show();
+    $gaIntro.hide();
+    $understanding.hide();
   });
 }
 
