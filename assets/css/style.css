@@ -126,7 +126,13 @@ img {
   background-color: #e6e6e6;
 }
 
-
+.tech-wrapper {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+}
 /* =======================
  * page layout
  * ======================= */
