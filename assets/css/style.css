@@ -664,7 +664,9 @@ li {
 
 }
 .skill {
-    height: 100px;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
     position: relative;
     border: 3px solid green;
 }
