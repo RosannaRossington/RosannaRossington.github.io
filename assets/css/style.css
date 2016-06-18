@@ -672,7 +672,15 @@ li {
   text-align: center;
 }
 
-.skill h5 {
+#confident {
+  color: red;
+}
+
+#learning {
+  color: red;
+}
+
+#intrigued {
   color: red;
 }
 
