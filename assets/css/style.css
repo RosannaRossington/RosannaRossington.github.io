@@ -665,23 +665,22 @@ li {
 }
 .skill {
   display: inline-block;
-  /*width: 150px;
+  width: 150px;
   height: 75px;
   margin: 10px;
   border: 3px solid #73AD21;
-  text-align: center;*/
-  height: 200px;
-  position: relative;
-  border: 3px solid green;
+  text-align: center;
+
 }
 
 #confident {
   color: red;
   margin: 0;
- position: absolute;
+  vertical-align: middle;
+ /*position: absolute;
  top: 50%;
  left: 50%;
- transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);*/
 }
 
 #learning {
