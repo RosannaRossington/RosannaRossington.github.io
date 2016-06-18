@@ -90,6 +90,29 @@ img {
   height: 64px;
 }
 
+.second_page-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 12px 0;
+  height: 64px;
+  width: 100%;
+  line-height: 20px;
+  text-align: center;
+}
+
+.second_page-footer-clear {
+  position: relative;
+  margin-bottom: -64px;
+  min-height: 100%;
+}
+
+.second_page-footer-clear:after {
+  content: "";
+  display: block;
+  height: 64px;
+}
+
 .link-1 {
   padding: 2px;
   color: #6599ff;
