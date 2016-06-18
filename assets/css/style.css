@@ -689,7 +689,7 @@ li {
 
 .tech {
   height: 50px;
-  width: 100px;
+  width: 20%;
   display: inline-block;
   position: relative;
   border: 3px solid green;
