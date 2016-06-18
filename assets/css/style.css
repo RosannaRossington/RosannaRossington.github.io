@@ -178,6 +178,80 @@ img {
   }
 }
 
+/* =======================
+ * Second page layout
+ * ======================= */
+.second_page-wrapper:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+  background-color: blue;
+}
+
+@media (min-width: 769px) {
+  .second_page-wrapper:before {
+    display: none;
+  }
+
+  .second_page-wrapper {
+    background-color: green;
+  }
+}
+
+.second_page-container {
+  position: relative;
+  padding-top: 55px;
+  font-family: "Titillium Web", sans-serif;
+  letter-spacing: .09em;
+}
+
+.second_page-container:before {
+  content: "";
+  position: absolute;
+  top: -55px;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-image: url({{ site.avatar }});
+  background-size: cover;
+}
+
+@media (min-width: 600px) {
+  .second_page-container {
+    padding-top: 75px;
+  }
+
+  .second_page-container:before {
+    top: -75px;
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (min-width: 769px) {
+  .second_page-container {
+    position: absolute;
+    right: 0;
+    padding-top: 0;
+    height: 100%;
+    width: 50%;
+    min-width: 384.5px;
+    background-color: #fff;
+  }
+
+  .second_page-container:before {
+    top: 150px;
+    left: -75px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 
 /* =======================
  * post layout
