@@ -206,7 +206,7 @@ img {
 }
 
 .second_page-container:before {
-  content: "";
+  /*content: "";
   position: absolute;
   top: -55px;
   left:0;
@@ -218,7 +218,7 @@ img {
   width: 100px;
   height: 100px;
   background-image: url({{ site.avatar }});
-  background-size: cover;
+  background-size: cover;*/
 }
 
 @media (min-width: 600px) {
