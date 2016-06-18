@@ -1,5 +1,3 @@
-console.log ("hello");
-
 $(start);
 
 function start(){
@@ -10,7 +8,8 @@ function start(){
 
 function technologiesPage(){
   return $.each([
-    "#understanding"
+    "#understanding",
+    "#gaIntro"
   ], function(element, value){
     $(value).show();
   });
@@ -25,9 +24,6 @@ function setupEvents(){
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
 
-  var $gaIntro        = $("#gaIntro");
-  var $understanding  = $("#understanding");
-
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
   $intrigued.on("click", showIntrigued);
@@ -40,18 +36,20 @@ function setupEvents(){
 function showConfident(){
   var $understanding  = $("#understanding");
   var $confidentTech  = $("#confidentTech");
+  var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
   $understanding.fadeOut("100", function(){
     $confidentTech.show();
     $gaIntro.hide();
-    // $understanding.hide();
+    $understanding.hide();
   });
 }
 
 function showLearning(){
   var $understanding  = $("#understanding");
   var $learningTech  = $("#learningTech");
+  var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
   $understanding.fadeOut("100", function(){
@@ -64,7 +62,8 @@ function showLearning(){
 function showIntrigued(){
   var $understanding  = $("#understanding");
   var $intriguedTech  = $("#intriguedTech");
-
+  var $gaIntro        = $("#gaIntro");
+  
   $(this).hide();
   $understanding.fadeOut("500", function(){
     $intriguedTech.show();
