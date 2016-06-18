@@ -672,6 +672,10 @@ li {
   text-align: center;
 }
 
+.skill h5 {
+  color: red;
+}
+
 .tech {
   display: inline-block;
   /*width: 150px;
