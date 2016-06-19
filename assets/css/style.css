@@ -725,7 +725,7 @@ li {
 
 .project {
   height: 200px;
-  width: 40%;
+  width: 25%;
   display: inline-block;
   position: relative;
   border: $projectBorder;
