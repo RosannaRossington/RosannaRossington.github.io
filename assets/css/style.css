@@ -66,6 +66,7 @@ img {
   margin: 0 auto;
   max-width: 100%;
   max-height: 100%;
+  border: 1px solid black;
 }
 
 .footer {
@@ -725,10 +726,9 @@ li {
 
 .project {
   height: 100%;
-  width: 49%;
+  width: 50%;
   display: inline-block;
   position: relative;
-  border: 1px solid black;
 }
 
 a {
