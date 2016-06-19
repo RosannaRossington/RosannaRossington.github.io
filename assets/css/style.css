@@ -133,6 +133,7 @@ img {
   left: 0;
   padding-top: 0;
   text-align: center;
+  width: 80%;
 }
 /* =======================
  * page layout
@@ -271,7 +272,7 @@ img {
     height: 100%;
     width: 50%;
     min-width: 384.5px;
-    background-color: pink;
+    background-color: white;
   }
 
   .second_page-container:before {
@@ -652,9 +653,6 @@ p {
   text-align: center;
 }
 /****Technologies****/
-#technologies {
-  background-color: pink;
-}
 
 li {
     list-style-type: none;
@@ -668,7 +666,7 @@ li {
     width: 100px;
     display: inline-block;
     position: relative;
-    border: 3px solid green;
+    /*border: 3px solid white;*/
 }
 
 .skill h5 {
