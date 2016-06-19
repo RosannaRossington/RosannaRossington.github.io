@@ -147,7 +147,7 @@ img {
   width: 80%;
   margin: auto;
 }
-.projects-wrapper {
+/*.projects-wrapper {
   position: absolute;
   top: 40%;
   right: 0;
@@ -156,7 +156,7 @@ img {
   text-align: center;
   width: 80%;
   margin: auto;
-}
+}*/
 .portfolio-wrapper {
   position: absolute;
   top: 40%;
@@ -735,4 +735,12 @@ li {
 #portfolio {
   display: inline-block;
   list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px 0;
+    height: 64px;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
 }
