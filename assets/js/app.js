@@ -42,7 +42,7 @@ function showConfident(){
   $understanding.fadeOut("100", function(){
     $confidentTech.show();
     $gaIntro.hide();
-    $understanding.hide();
+    $understanding.show();
   });
 }
 
@@ -55,7 +55,7 @@ function showLearning(){
   $understanding.fadeOut("100", function(){
     $learningTech.show();
     $gaIntro.hide();
-    $understanding.hide();
+    $understanding.show();
   });
 }
 
@@ -63,12 +63,12 @@ function showIntrigued(){
   var $understanding  = $("#understanding");
   var $intriguedTech  = $("#intriguedTech");
   var $gaIntro        = $("#gaIntro");
-  
+
   $(this).hide();
   $understanding.fadeOut("500", function(){
     $intriguedTech.show();
     $gaIntro.hide();
-    $understanding.hide();
+    $understanding.show();
   });
 }
 
