@@ -34,6 +34,7 @@ function setupEvents(){
 }
 
 function showConfident(){
+  var $confident      = $("#confident");
   var $understanding  = $("#understanding");
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
@@ -51,6 +52,7 @@ function showConfident(){
 }
 
 function showLearning(){
+  var $learning       = $("#learning");
   var $understanding  = $("#understanding");
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
@@ -68,6 +70,7 @@ function showLearning(){
 }
 
 function showIntrigued(){
+  var $intrigued      = $("#intrigued");
   var $understanding  = $("#understanding");
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
