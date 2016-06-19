@@ -70,8 +70,9 @@ img {
 
 #projectImage {
   /*display: block;*/
-  margin: 0 auto;
-  width:134.0px;
+  margin: 0;
+  width: 50%;
+  /*width:134.0px;*/
   height:68.9px;
 
 }
@@ -172,7 +173,7 @@ img {
   left: 0;
   padding-top: 0;
   text-align: center;
-  width: 50%;
+  width: 100%;
   height: 100%;
 }
 /* =======================
