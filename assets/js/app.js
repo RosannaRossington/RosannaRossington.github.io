@@ -35,7 +35,10 @@ function setupEvents(){
 
 function showConfident(){
   var $confident      = $("#confident");
+  var $learning       = $("#learning");
+  var $intrigued      = $("#intrigued");
   var $understanding  = $("#understanding");
+
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
@@ -47,12 +50,16 @@ function showConfident(){
     $intriguedTech.hide();
     $confidentTech.show();
     $gaIntro.hide();
-    $understanding.show();
+    $learning.show();
+    $intrigued.show();
   });
 }
 
 function showLearning(){
+  var $confident      = $("#confident");
   var $learning       = $("#learning");
+  var $intrigued      = $("#intrigued");
+
   var $understanding  = $("#understanding");
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
@@ -65,26 +72,31 @@ function showLearning(){
     $intriguedTech.hide();
     $confidentTech.hide();
     $gaIntro.hide();
-    $understanding.show();
+    $confident.show();
+    $intrigued.show();
   });
 }
 
 function showIntrigued(){
+  var $confident      = $("#confident");
+  var $learning       = $("#learning");
   var $intrigued      = $("#intrigued");
   var $understanding  = $("#understanding");
+
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
   var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
-
+  $intrigued.fadeOut("500", function(){
     $learningTech.hide();
     $intriguedTech.show();
     $confidentTech.hide();
     $gaIntro.hide();
-    $understanding.show();
-
+    $confident.show();
+    $learning.show();
+  });
 }
 
 function portfolioPage(){
