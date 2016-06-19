@@ -166,7 +166,7 @@ img {
   padding-top: 0;
   text-align: center;
   width: 50%;
-  height: 80%;
+  height: 100%;
 }
 /* =======================
  * page layout
@@ -724,7 +724,7 @@ li {
 }
 
 .project {
-  height: 200px;
+  height: 100px;
   width: 50%;
   display: inline-block;
   position: relative;
