@@ -19,9 +19,12 @@ about:
       - name: LinkedIn
         url: https://uk.linkedin.com/in/rosannarossington
         external: true
-      - name: Technologies
+      - name: technologies
         url: /technologies
         external: false
-      - name: Portfolio
+      - name: portfolio
         url: /portfolio
+        external: false
+      - name: me
+        url: /me
         external: false
