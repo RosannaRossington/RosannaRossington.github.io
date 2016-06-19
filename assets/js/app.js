@@ -78,13 +78,13 @@ function showIntrigued(){
   var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
-  $intrigued.fadeOut("500", function(){
+
     $learningTech.hide();
     $intriguedTech.show();
     $confidentTech.hide();
     $gaIntro.hide();
     $understanding.show();
-  });
+
 }
 
 function portfolioPage(){
