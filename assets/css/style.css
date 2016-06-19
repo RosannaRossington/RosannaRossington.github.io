@@ -155,7 +155,17 @@ img {
   padding-top: 0;
   text-align: center;
   width: 80%;
-  /*height: 100%;*/
+  margin: auto;
+}
+.portfolio-wrapper {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  text-align: center;
+  width: 80%;
+  height: 100%;
   margin: auto;
 }
 /* =======================
@@ -681,9 +691,6 @@ li {
     list-style-type: none;
 }
 
-#understanding {
-
-}
 .skill {
     height: 50px;
     width: 100px;
