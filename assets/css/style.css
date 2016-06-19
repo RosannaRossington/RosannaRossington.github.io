@@ -143,9 +143,10 @@ img {
   left: 0;
   padding-top: 0;
   text-align: center;
-  /*width: 80%;*/
-  margin: auto;
+  width: 80%;
+  /*margin: auto;*/
 }
+
 /* =======================
  * page layout
  * ======================= */
