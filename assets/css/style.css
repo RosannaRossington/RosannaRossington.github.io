@@ -144,7 +144,8 @@ img {
   padding-top: 0;
   text-align: center;
   width: 80%;
-  /*margin: auto;*/
+  height: 100%;
+  margin: auto;
 }
 
 /* =======================
