@@ -723,6 +723,13 @@ li {
   /*border: 3px solid green;*/
 }
 
+.project {
+  height: 200px;
+  width: 20%;
+  display: inline-block;
+  position: relative;
+  /*border: 3px solid green;*/
+}
 
 /****Portfolio****/
 #portfolio {
