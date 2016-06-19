@@ -725,10 +725,10 @@ li {
 
 .project {
   height: 200px;
-  width: 20%;
-  display: block;
+  width: 40%;
+  display: inline-block;
   position: relative;
-  /*border: 3px solid green;*/
+  border: 3px solid green;
 }
 
 /****Portfolio****/
