@@ -726,7 +726,7 @@ li {
 }
 
 .project {
-  height: 70%;
+  /*height: 70%;*/
   width: 50%;
   display: inline-block;
   position: relative;
