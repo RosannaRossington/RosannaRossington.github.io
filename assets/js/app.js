@@ -36,10 +36,14 @@ function setupEvents(){
 function showConfident(){
   var $understanding  = $("#understanding");
   var $confidentTech  = $("#confidentTech");
+  var $learningTech   = $("#learningTech");
+  var $intriguedTech  = $("#intriguedTech");
   var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
   $understanding.fadeOut("100", function(){
+    $learningTech.hide();
+    $intriguedTech.hide();
     $confidentTech.show();
     $gaIntro.hide();
     $understanding.show();
@@ -48,12 +52,16 @@ function showConfident(){
 
 function showLearning(){
   var $understanding  = $("#understanding");
-  var $learningTech  = $("#learningTech");
+  var $confidentTech  = $("#confidentTech");
+  var $learningTech   = $("#learningTech");
+  var $intriguedTech  = $("#intriguedTech");
   var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
   $understanding.fadeOut("100", function(){
     $learningTech.show();
+    $intriguedTech.hide();
+    $confidentTech.hide();
     $gaIntro.hide();
     $understanding.show();
   });
@@ -61,12 +69,16 @@ function showLearning(){
 
 function showIntrigued(){
   var $understanding  = $("#understanding");
+  var $confidentTech  = $("#confidentTech");
+  var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
   var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
   $understanding.fadeOut("500", function(){
+    $learningTech.hide();
     $intriguedTech.show();
+    $confidentTech.hide();
     $gaIntro.hide();
     $understanding.show();
   });
