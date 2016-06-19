@@ -165,7 +165,7 @@ img {
   left: 0;
   padding-top: 0;
   text-align: center;
-  width: 50%;
+  width: 80%;
   height: 100%;
 }
 /* =======================
@@ -728,7 +728,6 @@ li {
   width: 50%;
   display: inline-block;
   position: relative;
-  border: $projectBorder;
 }
 
 /****Portfolio****/
