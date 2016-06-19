@@ -691,12 +691,12 @@ li {
   width: 20%;
   display: inline-block;
   position: relative;
-  border: 3px solid green;
+  /*border: 3px solid green;*/
 }
 
 img {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
 }
 
 /****Portfolio****/
