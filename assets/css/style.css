@@ -145,10 +145,19 @@ img {
   padding-top: 0;
   text-align: center;
   width: 80%;
+  margin: auto;
+}
+.projects-wrapper {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  text-align: center;
+  width: 80%;
   /*height: 100%;*/
   margin: auto;
 }
-
 /* =======================
  * page layout
  * ======================= */
