@@ -164,12 +164,9 @@ img {
   right: 0;
   left: 0;
   padding-top: 0;
-  /*text-align: center;*/
+  text-align: center;
   width: 50%;
   height: 100%;
-  margin-right: auto;
-margin-left: auto;
-padding-top: 0;
 }
 /* =======================
  * page layout
