@@ -704,7 +704,7 @@ img {
 @media (min-width: 769px) {
   .title-wrapper {
     position: absolute;
-    top: 20%;
+    top: 25%;
     text-align: center;
     padding-top: 0;
     width: 50%;

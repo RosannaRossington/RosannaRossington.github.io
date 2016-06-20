@@ -10,6 +10,7 @@ function technologiesPage(){
   return $.each([
     "#understanding",
     "#gaIntro"
+    "#titles"
   ], function(element, value){
     $(value).show();
   });
@@ -44,6 +45,10 @@ function showConfident(){
   var $intriguedTech  = $("#intriguedTech");
   var $gaIntro        = $("#gaIntro");
 
+  var $intriguedTitle = $("#intriguedTitle");
+  var $confidentTitle = $("#confidentTitle");
+  var $learningTitle  = $("#learningTitle");
+
   $(this).hide();
   $confident.fadeOut("100", function(){
     $learningTech.hide();
@@ -52,6 +57,10 @@ function showConfident(){
 
     $learning.show();
     $intrigued.show();
+
+    $intriguedTitle.hide();
+    $confidentTitle.show();
+    $learningTitle.hide();
   });
 }
 
@@ -65,6 +74,10 @@ function showLearning(){
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
 
+  var $intriguedTitle = $("#intriguedTitle");
+  var $confidentTitle = $("#confidentTitle");
+  var $learningTitle  = $("#learningTitle");
+
   $(this).hide();
   $learning.fadeOut("100", function(){
     $learningTech.show();
@@ -72,6 +85,9 @@ function showLearning(){
     $confidentTech.hide();
     $confident.show();
     $intrigued.show();
+    $intriguedTitle.hide();
+    $confidentTitle.hide();
+    $learningTitle.show();
   });
 }
 
@@ -85,6 +101,10 @@ function showIntrigued(){
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
 
+  var $intriguedTitle = $("#intriguedTitle");
+  var $confidentTitle = $("#confidentTitle");
+  var $learningTitle  = $("#learningTitle");
+
   $(this).hide();
   $intrigued.fadeOut("500", function(){
     $learningTech.hide();
@@ -92,6 +112,9 @@ function showIntrigued(){
     $confidentTech.hide();
     $confident.show();
     $learning.show();
+    $intriguedTitle.show();
+    $confidentTitle.hide();
+    $learningTitle.hide();
   });
 }
 
