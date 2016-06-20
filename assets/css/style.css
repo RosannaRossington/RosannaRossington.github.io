@@ -303,11 +303,11 @@ img {
  }
 
  @media (min-width: 769px) {
-   .home-wrapper:before {
+   .home_page-wrapper:before {
      display: none;
    }
 
-   .home-wrapper {
+   .home_page-wrapper {
      background-color: #e81f2e;
    }
  }
