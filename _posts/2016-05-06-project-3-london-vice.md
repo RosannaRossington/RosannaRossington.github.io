@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project LondonVice
+title: Project 3 WDI | LondonVice
 date: 2016-05-06
 tags: english
 category: blog

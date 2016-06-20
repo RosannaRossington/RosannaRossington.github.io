@@ -18,8 +18,8 @@ layout: default
       {% assign status = '' %}
       {% endif %}
       <a class="post-archive-iterm" href="{{ post.url }}">
-        <span class="post-archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <span class="post-archive-title {{ status }}">{{ post.title }}</span>
+        <span class="post-archive-date"> {{ post.date | date: "%Y-%m-%d" }}</span>
+        <span class="post-archive-title {{ status }}"> {{ post.title }}</span>
       </a>
       {% endfor %}
     </div>
@@ -64,7 +64,5 @@ layout: default
   </div>
   {% endif %}
 
-  <!-- footer -->
-  {% include footer.html %}
 
 </div>

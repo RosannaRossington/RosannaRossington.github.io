@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Mudita
+title: Project 2 WDI | Mudita
 date: 2016-05-06
 tags: english
 category: blog

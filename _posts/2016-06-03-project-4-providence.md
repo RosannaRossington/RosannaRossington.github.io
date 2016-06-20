@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project Providence
+title: Project 4 WDI | Providence
 date: 2016-06-03
 tags: english
 category: blog
