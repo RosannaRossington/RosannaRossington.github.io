@@ -163,25 +163,7 @@ img {
   width: 80%;
   margin: auto;
 }
-.icon-wrapper {
-  /*position: absolute;
-  top: 40%;
-  right: 0;
-  left: 0;
-  padding-top: 0;
-  text-align: center;
-  width: 80%;
-  margin: auto;*/
-  position: absolute;
-  top: 0;
-  bottom: 20%;
-  right: 0;
-  left: 0;
-  padding-top: 0;
-  text-align: center;
-  width: 50%;
-  height: 100%;
-}
+
 .portfolio-wrapper {
   position: absolute;
   top: 40%;
@@ -204,6 +186,25 @@ img {
   width: 50%;
   height: 100%;
 }
+.icon-wrapper {
+  /*position: absolute;
+  top: 40%;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  text-align: center;
+  width: 80%;
+  margin: auto;*/
+  position: absolute;
+  top: 0;
+  bottom: 20%;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+}
 /* =======================
  * page layout
  * ======================= */
@@ -211,7 +212,8 @@ img {
   content: "";
   display: block;
   padding-top: 50%;
-  background-color: #f8f8f8;
+  background-color:#fcc772
+  /*background-color: #f8f8f8;*/
 }
 
 @media (min-width: 769px) {
@@ -756,7 +758,7 @@ li {
 }
 
 #intrigued {
-  color: #199ca5;
+  color: #c44d6b;
   font-family: Quicksand;
   text-transform: uppercase;
 }
@@ -766,6 +768,7 @@ li {
   width: 20%;
   display: inline-block;
   position: relative;
+  margin: 0 auto;
 }
 
 .project {
