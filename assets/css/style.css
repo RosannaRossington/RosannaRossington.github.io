@@ -707,6 +707,8 @@ img {
     top: 20%;
     text-align: center;
     padding-top: 0;
+    width: 50%;
+    height: 100%;
   }
 }
 
