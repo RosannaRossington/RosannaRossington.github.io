@@ -745,15 +745,17 @@ li {
 
 #confident {
   color: #115e48;
-  font-family: monospace;
+  font-family: Lora;
 }
 
 #learning {
   color: #c27846;
+  font-family: Lora;
 }
 
 #intrigued {
   color: #199ca5;
+  font-family: Lora;
 }
 
 .tech {
