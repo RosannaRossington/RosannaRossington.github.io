@@ -12,7 +12,7 @@ A single page JavaScript game application to keep your mind sharp. An individual
 ![What colour is the text?](../assets/img/blog/project1.png)
 
 Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/RosannaRossington/wdi-project-2/blob/master/MuditaHome.png "Logo Title Text 1")
 
 Reference-style:
 ![alt text][logo]
