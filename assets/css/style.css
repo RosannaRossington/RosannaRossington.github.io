@@ -295,6 +295,22 @@ img {
 /* =======================
  * Second page layout
  * ======================= */
+ .about_page-wrapper:before {
+   content: "";
+   display: block;
+   padding-top: 50%;
+   background-color: #5a0328;
+ }
+
+ @media (min-width: 769px) {
+   .about_page-wrapper:before {
+     display: none;
+   }
+
+   .about_page-wrapper {
+     background-color: #5a0328;
+   }
+ }
  .v2_second_page-wrapper:before {
    content: "";
    display: block;
@@ -312,11 +328,11 @@ img {
    }
  }
 
-.v2_second_page-wrapper:before {
+.second_page-wrapper:before {
   content: "";
   display: block;
   padding-top: 50%;
-  background-color: #60042d;
+  background-color: #b4722d;
 }
 
 @media (min-width: 769px) {
@@ -325,7 +341,7 @@ img {
   }
 
   .second_page-wrapper {
-    background-color: #8daa8a;
+    background-color: #b4722d;
   }
 }
 
