@@ -591,7 +591,7 @@ img {
 .post-nav-previous,
 .post-nav-next {
   display: inline-block;
-  color: #6599ff;
+  color: #8a8a8a;
   text-decoration: none;
   font-family: "Titillium Web", sans-serif;
 }
@@ -661,7 +661,7 @@ img {
 }
 
 .post-content a {
-  color: #a2b09b;
+  color: #eec30f;
   text-decoration: none;
   -webkit-transition: border .5s;
   -moz-transition: border .5s;
