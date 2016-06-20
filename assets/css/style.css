@@ -162,7 +162,8 @@ img {
 }
 .projects-wrapper {
   position: absolute;
-  /*top: 20%;*/
+  top: 20%;
+  bottom: 20%;
   right: 0;
   left: 0;
   padding-top: 0;
@@ -260,7 +261,7 @@ img {
   }
 
   .second_page-wrapper {
-    background-color: green;
+    background-color: $background-color;
   }
 }
 
@@ -722,12 +723,11 @@ li {
   width: 20%;
   display: inline-block;
   position: relative;
-  /*border: 3px solid green;*/
 }
 
 .project {
   /*height: 70%;*/
-  width: 50%;
+  width: 350px;
   display: inline-block;
   position: relative;
 }
