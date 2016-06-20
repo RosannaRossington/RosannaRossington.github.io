@@ -288,7 +288,7 @@ img {
   content: "";
   display: block;
   padding-top: 50%;
-  background-color: #5f87a0;
+  background-color: #8daa8a;
 }
 
 @media (min-width: 769px) {
@@ -297,7 +297,7 @@ img {
   }
 
   .second_page-wrapper {
-    background-color: #5f87a0;
+    background-color: #8daa8a;
   }
 }
 
