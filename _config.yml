@@ -2,7 +2,7 @@ title: About Me
 description: Portfolio & Blog
 url: # site url
 avatar: /assets/img/Logo140.jpg
-favicon: /assets/img/favicon.ico
+# favicon: /assets/img/favicon.ico
 google_analytics: # google analytics id
 disqus_shortname: # disqus_shortname for disqus comment system
 
