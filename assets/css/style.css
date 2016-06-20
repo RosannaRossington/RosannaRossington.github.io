@@ -875,9 +875,12 @@ hr {
   border-width: 1px;
 }
 #functionality {
-  border-color: #60002f;
   font-family: Quicksand;
   font-size: 20px;
+}
+
+#functionality style {
+  border-color: #60002f;
 }
 
 #technologies {
@@ -886,9 +889,12 @@ hr {
 }
 
 #links {
-  border-color: #3a4f37;
   font-family: Quicksand;
   font-size: 20px;
+}
+
+#links style {
+  border-color: #3a4f37;
 }
 /****Portfolio****/
 #portfolio {
