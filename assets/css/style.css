@@ -743,12 +743,17 @@ li {
     transform: translate(-50%, -50%);
 }
 
+#confident {
+  color: #115e48;
+  font-family: monospace;
+}
+
 #learning {
-  color: red;
+  color: #c27846;
 }
 
 #intrigued {
-  color: red;
+  color: #199ca5;
 }
 
 .tech {
