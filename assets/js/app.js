@@ -9,7 +9,7 @@ function start(){
 function technologiesPage(){
   return $.each([
     "#understanding",
-    "#gaIntro"
+    "#gaIntro",
     "#titles"
   ], function(element, value){
     $(value).show();
