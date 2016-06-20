@@ -140,14 +140,23 @@ img {
   margin: auto;
 }
 .icon-wrapper {
-  position: absolute;
+  /*position: absolute;
   top: 40%;
   right: 0;
   left: 0;
   padding-top: 0;
   text-align: center;
   width: 80%;
-  margin: auto;
+  margin: auto;*/
+  position: absolute;
+  top: 0;
+  bottom: 20%;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  text-align: center;
+  width: 50%;
+  height: 100%;
 }
 .portfolio-wrapper {
   position: absolute;
