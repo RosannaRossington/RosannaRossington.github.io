@@ -668,6 +668,7 @@ img {
   transition: border .5s;
   font-family: Quicksand;
   padding-right: 80px;
+  text-align: center;
 }
 
 .post-content a:hover {
