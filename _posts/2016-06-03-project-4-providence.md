@@ -8,7 +8,7 @@ category: blog
 
 -----------
 
-An AngularJS application with an Express backend using Nike’s [MSI](http://msi.apparelcoalition.org/#/) database.
+An AngularJS application with an Express backend using Nike’s [MSI database.](http://msi.apparelcoalition.org/#/)
 
 An independent six-day project to raise awareness regarding the environmental impact of materials used in products on Net-a-Porter.com.
 
