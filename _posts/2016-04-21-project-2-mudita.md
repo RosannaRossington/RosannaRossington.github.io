@@ -10,8 +10,6 @@ category: blog
 A Rails application with PostgreSQL that brings a social aspect to shopping online.
 An individual five-day project that allows you to share links to products you think would suit a friend.
 
-![Mudita](./assets/img/blog/MuditaInbox.png)
-
 Functionality
 -----------
 See something that would look great on a friend. Find a username paste in a product page URL. Send and check your Inbox too to see what recommendations you have and upload a picture wearing your new purchase.

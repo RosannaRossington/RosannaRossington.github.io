@@ -12,8 +12,6 @@ An AngularJS application with an Express backend using Nike’s [MSI](http://msi
 
 An independent six-day project to raise awareness regarding the environmental impact of materials used in products on Net-a-Porter.com.
 
-![Providence](./assets/img/blog/providence.png)
-
 Functionality
 -----------
 

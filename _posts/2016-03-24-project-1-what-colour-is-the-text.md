@@ -9,16 +9,6 @@ category: blog
 
 A single page JavaScript game application to keep your mind sharp. An individual four-day project that tests the brain using colours and distractions to force you to think hard in a limited time period before you give your answer.
 
-![What colour is the text?](../assets/img/blog/project1.png)
-
-Inline-style:
-![alt text](https://github.com/RosannaRossington/wdi-project-2/blob/master/MuditaHome.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: ./assets/img/blog/project1.png "Logo Title Text 2"
-
 Functionality
 -----------
 A four level brain test game. On click the user is shown two buttons that each contain a colour. The user has to click the colour of the text not the text. Each level displays the round for between two and a half – three seconds. The user's score is displayed after ten rounds and logs if the user is correct, incorrect or not fast enough. Introducing added distraction to level three and an additional background colour in level four.
