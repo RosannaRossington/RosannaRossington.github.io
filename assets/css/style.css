@@ -118,7 +118,7 @@ img {
 
 .link-1 {
   padding: 2px;
-  color: #6599ff;
+  color: #FF008C;
   text-decoration: none;
   -webkit-transition: background-color .7s;
   -moz-transition: background-color .7s;
@@ -126,7 +126,7 @@ img {
 }
 
 .link-1:hover {
-  background-color: #e6e6e6;
+  background-color: none;
 }
 
 .tech-wrapper {

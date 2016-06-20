@@ -52,3 +52,42 @@ $projectBorder: solid 3px black;
         "layout",
         "syntax-highlighting"
 ;
+
+h5{
+    text-transform: uppercase;
+    font: bolder 0.875rem "Avenir Next";
+    letter-spacing: 3px;
+    color: $sign-link-color;
+    font-size: 70%;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  h5 > a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+
+  h5 > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  &:hover h5 > a:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+}
