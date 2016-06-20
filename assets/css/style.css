@@ -868,6 +868,20 @@ hr {
   border-style: inset;
   border-width: 1px;
 }
+#functionality {
+  border-color: #60002f;
+  font-family: Quicksand;
+}
+
+#technology {
+  border-color: #b16d2a;
+  font-family: Quicksand;
+}
+
+#links {
+  border-color: #3a4f37;
+  font-family: Quicksand;
+}
 /****Portfolio****/
 #portfolio {
   /*display: inline-block;*/
