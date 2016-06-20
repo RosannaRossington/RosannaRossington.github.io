@@ -21,4 +21,6 @@ A Ruby on Rails application that uses the Devise gem to setup an authentication 
 Links
 -----------
 [GitHub](https://github.com/RosannaRossington/wdi-project-2)
+-----------
 [Mudita](https://the-mudita.herokuapp.com/)
+-----------
