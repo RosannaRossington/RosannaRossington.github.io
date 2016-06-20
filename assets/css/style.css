@@ -288,7 +288,7 @@ img {
   content: "";
   display: block;
   padding-top: 50%;
-  background-color: blue;
+  background-color: #5f87a0;
 }
 
 @media (min-width: 769px) {
@@ -297,7 +297,7 @@ img {
   }
 
   .second_page-wrapper {
-    background-color: $background-color;
+    background-color: #5f87a0;
   }
 }
 
@@ -355,7 +355,25 @@ img {
   }
 }
 
+/* =======================
+ * Third page layout
+ * ======================= */
+.third_page-wrapper:before {
+  content: "";
+  display: block;
+  padding-top: 50%;
+  background-color: #5f87a0;
+}
 
+@media (min-width: 769px) {
+  .third_page-wrapper:before {
+    display: none;
+  }
+
+  .third_page-wrapper {
+    background-color: #5f87a0;
+  }
+}
 /* =======================
  * post layout
  * ======================= */
@@ -801,7 +819,8 @@ li {
   width: 20%;
   display: inline-block;
   position: relative;
-  margin: 0 auto;
+  margin: 5px;
+  text-align: center;
 }
 
 .project {
