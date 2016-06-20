@@ -25,6 +25,8 @@ function setupEvents(){
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
 
+  var $titles         = $("#titles");
+
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
   $intrigued.on("click", showIntrigued);
@@ -32,6 +34,8 @@ function setupEvents(){
   $confidentTech.hide();
   $learningTech.hide();
   $intriguedTech.hide();
+
+  $titles.hide();
 }
 
 function showConfident(){
