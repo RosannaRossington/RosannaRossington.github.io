@@ -2,29 +2,21 @@ title: About Me
 description: Portfolio & Blog
 url: # site url
 avatar: /assets/img/Logo140.jpg
-# favicon: /assets/img/favicon.ico
+favicon: #/assets/img/favicon.ico
 google_analytics: # google analytics id
 disqus_shortname: # disqus_shortname for disqus comment system
 
 about:
-  - paragraph: <p>Keen traveler, visited Colombia, Tokyo, New York and Europe, improving my language skills, engaging in new activities, experiencing local lifestyles and cultures. Embarked upon a month-long expedition to Peru, working on two charitable projects and completing a four day Inca trail trek.</p>
-
-  <p>Volunteered with Raleigh International on the ICS Entrepreneur programme in Nicaragua: May 2015 – July 2015. Coaching and mentoring young entrepreneurs in two rural communities in the Northern region of Madriz to successfully launch nine new businesses. Leading a team of Spanish and English speaking volunteers. Developed facilitation skills through planning and presenting sessions in Spanish. Increased my understanding of diversity and intercultural work.</p>
-
-  <p>Fitness enthusiast always willing to try the latest health & fitness trend...or fad. Keen runner completing Half Marathons while fund raising for local charities hoping one day to run a full marathon. Practice yoga daily and enjoy a wide variety of styles including Ying and Bikram; enjoying the benefits of unplugging and balancing my love for all things related to the world of technology! </p>
-
-  <p>Specific interest in the luxury fashion industry’s reservations to enter the world of ecommerce. Interested in developing the online translation of the luxury shopping experience with innovative technology solutions.</p>
+  - paragraph: Keen traveler, visited South America, Tokyo, New York and Europe, improving my language skills, engaging in new activities, experiencing local lifestyles and cultures. <hr>
+  Volunteered with Raleigh International on the ICS Entrepreneur programme in Nicaragua: May 2015 – July 2015. Coaching and mentoring young entrepreneurs in two rural communities in the Northern region of Madriz to successfully launch nine new businesses. Leading a team of Spanish and English speaking volunteers. Developed facilitation skills through planning and presenting sessions in Spanish. Increased my understanding of diversity and intercultural work.<hr>Fitness enthusiast always willing to try the latest health & fitness trend, or fad. Keen runner completing Half Marathons while fund raising for local charities hoping one day to run a full marathon. Practice yoga daily and enjoy a wide variety of styles including Ying and Bikram; enjoying the benefits of unplugging and balancing my love for all things related to the world of technology!<hr> <p>?link?,?link?</p>
     text_align: center
     links:
-      # - name: GeneralAssembly
-      #   url: https://generalassemb.ly/
-      #   external: true
-      # - name: GitHub
-      #   url: https://github.com/RosannaRossington
-      #   external: true
-      # - name: LinkedIn
-      #   url: https://uk.linkedin.com/in/rosannarossington
-      #   external: true
-      # # - name: me
-      # #   url: /me
-      # #   external: false
+      - name: GeneralAssembly
+        url: https://generalassemb.ly/
+        external: true
+      - name: GitHub
+        url: https://github.com/RosannaRossington
+        external: true
+      - name: LinkedIn
+        url: https://uk.linkedin.com/in/rosannarossington
+        external: true
