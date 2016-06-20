@@ -565,7 +565,6 @@ img {
   padding-left: 20px;
   width: 210px;
   font-family: "Quicksand";
-  text-transform: uppercase;
 }
 
 .post-archive-title:before {
@@ -583,7 +582,6 @@ img {
   transition: background-color .7s;
   z-index: 2;
   font-family: "Quicksand";
-  text-transform: uppercase;
 }
 
 .post-archive-iterm:hover .post-archive-title:before {
@@ -593,7 +591,6 @@ img {
 .post-archive-title.checked:before {
   background-color: #eec30f;
   font-family: "Quicksand";
-  text-transform: uppercase;
 }
 
 /* post */
