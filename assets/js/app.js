@@ -49,7 +49,7 @@ function showConfident(){
     $learningTech.hide();
     $intriguedTech.hide();
     $confidentTech.show();
-    $gaIntro.hide();
+
     $learning.show();
     $intrigued.show();
   });
@@ -64,14 +64,12 @@ function showLearning(){
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
-  var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
   $learning.fadeOut("100", function(){
     $learningTech.show();
     $intriguedTech.hide();
     $confidentTech.hide();
-    $gaIntro.hide();
     $confident.show();
     $intrigued.show();
   });
@@ -86,14 +84,12 @@ function showIntrigued(){
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
-  var $gaIntro        = $("#gaIntro");
 
   $(this).hide();
   $intrigued.fadeOut("500", function(){
     $learningTech.hide();
     $intriguedTech.show();
     $confidentTech.hide();
-    $gaIntro.hide();
     $confident.show();
     $learning.show();
   });
