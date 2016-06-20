@@ -5,9 +5,12 @@ date: 2016-05-06
 tags: english
 category: blog
 ---
-##WDI Project 3
+-----------
+
 A MEN stack application that aims to display data from the Police API in an easily accessible and visually appealing manner.
 A three person six-day group project to raise awareness of the type of crime, location and status of the criminal activity in London.
+
+![London-vice-landing](./assets/img/blog/London-vice-landing.png)
 
 Functionality
 -----------

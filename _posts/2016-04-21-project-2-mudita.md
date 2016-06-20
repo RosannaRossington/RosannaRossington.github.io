@@ -5,10 +5,12 @@ date: 2016-05-06
 tags: english
 category: blog
 ---
-##WDI Project 2
+-----------
 
 A Rails application with PostgreSQL that brings a social aspect to shopping online.
 An individual five-day project that allows you to share links to products you think would suit a friend.
+
+![Mudita](./assets/img/blog/MuditaInbox.png)
 
 Functionality
 -----------

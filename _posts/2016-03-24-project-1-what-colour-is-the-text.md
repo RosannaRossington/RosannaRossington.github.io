@@ -5,11 +5,11 @@ date: 2016-03-24
 tags: english
 category: blog
 ---
-##WDI Project 1
+-----------
 
-Project 1 – What colour is the text? A single page JavaScript game application to keep your mind sharp. An individual four-day project that tests the brain using colours and distractions to force you to think hard in a limited time period before you give your answer.
+A single page JavaScript game application to keep your mind sharp. An individual four-day project that tests the brain using colours and distractions to force you to think hard in a limited time period before you give your answer.
 
-![What colour is the text?](./assets/blog/project1.png)
+![What colour is the text?](./assets/img/blog/project1.png)
 -----------
 
     Functionality
