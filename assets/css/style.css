@@ -163,6 +163,17 @@ img {
   transform: scaleX(1);
 }
 
+.home-wrapper {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  left: 0;
+  padding-top: 0;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
 .tech-wrapper {
   position: absolute;
   top: 40%;
@@ -185,6 +196,7 @@ img {
   height: 100%;
   margin: auto;
 }
+
 .projects-wrapper {
   position: absolute;
   top: 0;
