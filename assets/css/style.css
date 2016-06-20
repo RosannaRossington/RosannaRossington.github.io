@@ -730,6 +730,7 @@ li {
   width: 350px;
   /*display: inline-block;*/
   position: relative;
+  margin: 0 auto;
 }
 
 a {
