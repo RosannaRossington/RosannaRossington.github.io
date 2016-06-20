@@ -162,7 +162,7 @@ img {
 }
 .projects-wrapper {
   position: absolute;
-  top: 20%;
+  top: 0;
   bottom: 20%;
   right: 0;
   left: 0;
