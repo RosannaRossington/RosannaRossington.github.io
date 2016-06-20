@@ -9,8 +9,10 @@ function technologiesPage(){
   return $.each([
     "#understanding",
     "#gaIntro",
-    "#titles"
-  ], function(element, value){
+    "#intriguedTitle",
+    "#confidentTitle",
+    "#learningTitle"
+   ], function(element, value){
     $(value).show();
   });
 }
@@ -24,7 +26,9 @@ function setupEvents(){
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
 
-  var $titles         = $("#titles");
+  var $intriguedTitle = $("#intriguedTitle");
+  var $confidentTitle = $("#confidentTitle");
+  var $learningTitle  = $("#learningTitle");
 
   $confident.on("click", showConfident);
   $learning.on("click", showLearning);
@@ -34,7 +38,9 @@ function setupEvents(){
   $learningTech.hide();
   $intriguedTech.hide();
 
-  $titles.hide();
+  $intriguedTitle.hide();
+  $confidentTitle.hide();
+  $learningTitle.hide();
 }
 
 function showConfident(){
@@ -46,7 +52,6 @@ function showConfident(){
   var $confidentTech  = $("#confidentTech");
   var $learningTech   = $("#learningTech");
   var $intriguedTech  = $("#intriguedTech");
-  var $gaIntro        = $("#gaIntro");
 
   var $intriguedTitle = $("#intriguedTitle");
   var $confidentTitle = $("#confidentTitle");
