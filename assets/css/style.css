@@ -767,7 +767,7 @@ li {
   text-transform: uppercase;
 }
 
-.confidentTitle {
+#confidentTitle {
   color: #115e48;
   font-family: Quicksand;
   text-transform: uppercase;
