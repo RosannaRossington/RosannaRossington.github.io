@@ -7,7 +7,7 @@ google_analytics: # google analytics id
 disqus_shortname: # disqus_shortname for disqus comment system
 
 about:
-  - paragraph: Hi, My name is Rosanna Rossington. Having worked in ecommerce roles using HTML and CSS and produced a theoretical website for Chanel in my dissertation, I have always been intrigued by how technology can be used to merge the online and offline worlds. Eager to be able to create these ideas and see a project through to completion I decided ?link? was the perfect environment for me to begin my career as a Web Developer. <p>?link?,?link?</p>
+  - paragraph: Hi, My name is Rosanna Rossington. Having worked in ecommerce roles using HTML and CSS and produced a theoretical website for Chanel in my dissertation, I have always been intrigued by how technology can be used to merge the online and offline worlds. Eager to be able to create these ideas and see a project through to completion I decided ?link? was the perfect environment for me to begin my career as a Web Developer. <hr> <p>?link?,?link?</p>
     text_align: center
     links:
       - name: GeneralAssembly
