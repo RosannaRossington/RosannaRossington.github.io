@@ -165,7 +165,7 @@ img {
 
 .home-wrapper {
   position: absolute;
-  top: 60%;
+  top: 40%;
   right: 0;
   left: 0;
   padding-top: 0;
@@ -295,11 +295,28 @@ img {
 /* =======================
  * Second page layout
  * ======================= */
-.second_page-wrapper:before {
+ .v2_second_page-wrapper:before {
+   content: "";
+   display: block;
+   padding-top: 50%;
+   background-color: #60042d;
+ }
+
+ @media (min-width: 769px) {
+   .v2_second_page-wrapper:before {
+     display: none;
+   }
+
+   .v2_second_page-wrapper {
+     background-color: #60042d;
+   }
+ }
+
+.v2_second_page-wrapper:before {
   content: "";
   display: block;
   padding-top: 50%;
-  background-color: #8daa8a;
+  background-color: #60042d;
 }
 
 @media (min-width: 769px) {
