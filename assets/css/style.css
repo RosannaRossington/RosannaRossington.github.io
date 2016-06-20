@@ -779,12 +779,23 @@ li {
   text-transform: uppercase;
 }
 
+#learningTitle {
+  color: #c27846;
+  font-family: Quicksand;
+  text-transform: uppercase;
+}
+
 #intrigued {
   color: #c44d6b;
   font-family: Quicksand;
   text-transform: uppercase;
 }
 
+#intriguedTitle {
+  color: #c44d6b;
+  font-family: Quicksand;
+  text-transform: uppercase;
+}
 .tech {
   height: 50px;
   width: 20%;
