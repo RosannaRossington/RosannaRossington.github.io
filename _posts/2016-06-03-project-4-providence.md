@@ -31,4 +31,6 @@ Links
 ----
 
 [Providence](https://the-providence.herokuapp.com/)
+------
 [GitHub](https://github.com/RosannaRossington/wdi-project-4)
+------
