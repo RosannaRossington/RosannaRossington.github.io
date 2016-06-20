@@ -295,6 +295,23 @@ img {
 /* =======================
  * Second page layout
  * ======================= */
+ .home_page-wrapper:before {
+   content: "";
+   display: block;
+   padding-top: 50%;
+   background-color: #e81f2e;
+ }
+
+ @media (min-width: 769px) {
+   .home-wrapper:before {
+     display: none;
+   }
+
+   .home-wrapper {
+     background-color: #e81f2e;
+   }
+ }
+
  .about_page-wrapper:before {
    content: "";
    display: block;
