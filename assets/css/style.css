@@ -669,7 +669,7 @@ img {
 }
 
 .post-content a:hover {
-  border-bottom: 2px dotted #000;
+  border-bottom: 2px solid #FF008C;
 }
 
 .post-content h2 {
