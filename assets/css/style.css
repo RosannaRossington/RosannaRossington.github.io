@@ -114,9 +114,9 @@ img {
 }
 
 .second_page-footer-clear {
-  position: relative;
+  /*position: relative;
   margin-bottom: -64px;
-  min-height: 100%;
+  min-height: 100%;*/
 }
 
 .second_page-footer-clear:after {
@@ -193,7 +193,6 @@ img {
   padding-top: 0;
   text-align: center;
   width: 50%;
-  height: 100%;
 }
 .icon-wrapper {
   position: absolute;
