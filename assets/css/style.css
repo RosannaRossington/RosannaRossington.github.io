@@ -661,15 +661,16 @@ img {
 }
 
 .post-content a {
-  color: #eec30f;
+  color: #FF008C;
   text-decoration: none;
   -webkit-transition: border .5s;
   -moz-transition: border .5s;
   transition: border .5s;
+  font-family: Quicksand;
 }
 
 .post-content a:hover {
-  border-bottom: 2px solid #FF008C;
+  border-bottom: 2px solid #eec30f;
 }
 
 .post-content h2 {
