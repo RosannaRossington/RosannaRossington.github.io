@@ -120,13 +120,21 @@ img {
   padding: 2px;
   color: #FF008C;
   text-decoration: none;
-  -webkit-transition: background-color .7s;
+  /*-webkit-transition: background-color .7s;
   -moz-transition: background-color .7s;
-  transition: background-color .7s;
+  transition: background-color .7s;*/
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .link-1:hover {
   background-color: none;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .tech-wrapper {
