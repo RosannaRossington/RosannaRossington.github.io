@@ -18,7 +18,6 @@ Reference-style:
 ![alt text][logo]
 
 [logo]: ./assets/img/blog/project1.png "Logo Title Text 2"
------------
 
 Functionality
 -----------
@@ -26,9 +25,9 @@ A four level brain test game. On click the user is shown two buttons that each c
 
 Technologies
 -----------
- A single page JavaScript application using jQuery methods to hide and show HTML elements depending on the users input. The library also allows the execution of a new round after a set interval depending on the level, the three HTML elements per round are created using a random generator function. Animate CSS adds styling and distractions to the game in level 3 and a counter loop keeps score and limits the levels to ten rounds.
+A single page JavaScript application using jQuery methods to hide and show HTML elements depending on the users input. The library also allows the execution of a new round after a set interval depending on the level, the three HTML elements per round are created using a random generator function. Animate CSS adds styling and distractions to the game in level 3 and a counter loop keeps score and limits the levels to ten rounds.
 
 Links
-----
+-----------
 [What colour is the text?](https://what-colour.herokuapp.com/)
 [GitHub](https://github.com/RosannaRossington/wdi-project-1)
