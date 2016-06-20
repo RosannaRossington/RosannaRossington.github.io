@@ -789,7 +789,6 @@ li {
   color: #115e48;
   font-family: Quicksand;
   text-transform: uppercase;
-  font-size: 24px;
 }
 
 #learning {
@@ -802,7 +801,6 @@ li {
   color: #c27846;
   font-family: Quicksand;
   text-transform: uppercase;
-  font-size: 24px;
 }
 
 #intrigued {
@@ -815,8 +813,12 @@ li {
   color: #c44d6b;
   font-family: Quicksand;
   text-transform: uppercase;
-  font-size: 24px;
 }
+
+h2 {
+  font-size: 20px;
+}
+
 .tech {
   height: 50px;
   width: 20%;
