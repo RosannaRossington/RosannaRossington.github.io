@@ -696,6 +696,23 @@ img {
   }
 }
 
+.title-wrapper {
+  padding-top: 15%;
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .title-wrapper {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+  }
+}
+
 /* about */
 .about-wrapper {
   margin-right: auto;
@@ -747,6 +764,12 @@ li {
 }
 
 #confident {
+  color: #115e48;
+  font-family: Quicksand;
+  text-transform: uppercase;
+}
+
+.confidentTitle {
   color: #115e48;
   font-family: Quicksand;
   text-transform: uppercase;
