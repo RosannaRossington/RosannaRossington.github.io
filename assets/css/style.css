@@ -376,7 +376,7 @@ img {
  * post layout
  * ======================= */
 .post-wrapper {
-  background-color: #f8f8f8;
+  background-color: #f0e4d7;
   overflow-x: hidden;
 }
 
@@ -541,7 +541,7 @@ img {
 }
 
 .post-archive-iterm:hover .post-archive-title:before {
-  background-color: #ffc0b8;
+  background-color: #e3a770;
 }
 
 .post-archive-title.checked:before {

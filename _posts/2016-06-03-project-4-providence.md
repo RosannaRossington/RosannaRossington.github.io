@@ -5,11 +5,12 @@ date: 2016-06-03
 tags: english
 category: blog
 ---
-##WDI Project 4
+
+-----------
+
 An AngularJS application with an Express backend using Nike’s [MSI](http://msi.apparelcoalition.org/#/) database.
 
 An independent six-day project to raise awareness regarding the environmental impact of materials used in products on Net-a-Porter.com.
------------
 
 Functionality
 -----------
@@ -27,5 +28,5 @@ Using Bower and Grunt the application is set up using Passport authentication st
 Links
 ----
 
-[Providence](https://the-providence.herokuapp.com/)
+[Providence](https://the-providence.herokuapp.com/) | 
 [GitHub](https://github.com/RosannaRossington/wdi-project-4)
