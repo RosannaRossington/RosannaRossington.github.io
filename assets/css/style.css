@@ -773,7 +773,6 @@ a {
 hr {
   display: block;
   width: 80%;
-  margin: 0 auto;
   border-style: inset;
   border-width: 1px;
 }
