@@ -611,6 +611,7 @@ img {
 .post-comment {
   padding: 23.8px 18.2px;
   font-family: "Titillium Web", sans-serif;
+  text-align: center;
 }
 
 @media (min-width: 600px) {
@@ -636,6 +637,7 @@ img {
     margin-top: 2em;
     margin-bottom: 2em;
     font-family: "Titillium Web", sans-serif;
+    text-align: center;
   }
 
   .post-content {
