@@ -10,6 +10,14 @@ category: blog
 A single page JavaScript game application to keep your mind sharp. An individual four-day project that tests the brain using colours and distractions to force you to think hard in a limited time period before you give your answer.
 
 ![What colour is the text?](./assets/img/blog/project1.png)
+
+Inline-style:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style:
+![alt text][logo]
+
+[logo]: ./assets/img/blog/project1.png "Logo Title Text 2"
 -----------
 
 Functionality
