@@ -3,7 +3,6 @@ $(start);
 function start(){
   technologiesPage();
   setupEvents();
-  portfolioPage();
 }
 
 function technologiesPage(){
@@ -119,13 +118,5 @@ function showIntrigued(){
     $intriguedTitle.show();
     $confidentTitle.hide();
     $learningTitle.hide();
-  });
-}
-
-function portfolioPage(){
-  return $.each([
-    "#titles"
-  ], function(element, value){
-    $(value).show();
   });
 }
