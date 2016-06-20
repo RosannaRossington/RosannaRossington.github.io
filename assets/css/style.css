@@ -213,7 +213,7 @@ img {
   content: "";
   display: block;
   padding-top: 50%;
-  background-color:#fcc772
+  background-color:#fcc772;
   /*background-color: #f8f8f8;*/
 }
 
@@ -223,7 +223,7 @@ img {
   }
 
   .page-wrapper {
-    background-color: #f8f8f8;
+    background-color: #fcc772;
   }
 }
 
