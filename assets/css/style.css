@@ -117,18 +117,18 @@ img {
 }
 
 .link-1 {
-  /*padding: 2px;
+  padding: 2px;
   color: #FF008C;
   text-decoration: none;
-  -webkit-transition: background-color .7s;
-  -moz-transition: background-color .7s;
-  transition: background-color .7s;*/
+}
+
+.nav {
   position: relative;
   color: #000;
   text-decoration: none;
 }
 
-.link-1:before {
+.nav:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -143,11 +143,11 @@ img {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.link-1:hover {
+.nav:hover {
   color: black;
 }
 
-.link-1:hover:before {
+.nav:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
