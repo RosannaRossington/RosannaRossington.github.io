@@ -19,5 +19,5 @@ A single page JavaScript application using jQuery methods to hide and show HTML 
 
 Links
 -----------
-[What colour is the text?](https://what-colour.herokuapp.com/)
-[GitHub](https://github.com/RosannaRossington/wdi-project-1)
+[What colour is the text?   ](https://what-colour.herokuapp.com/)
+[   GitHub](https://github.com/RosannaRossington/wdi-project-1)

@@ -28,7 +28,5 @@ Using Bower and Grunt the application is set up using Passport authentication st
 Links
 ----
 
-[Providence](https://the-providence.herokuapp.com/)
-------
-[GitHub](https://github.com/RosannaRossington/wdi-project-4)
-------
+[Providence   ](https://the-providence.herokuapp.com/)
+[   GitHub](https://github.com/RosannaRossington/wdi-project-4)

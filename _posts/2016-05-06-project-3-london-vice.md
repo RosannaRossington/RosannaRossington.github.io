@@ -10,8 +10,6 @@ category: blog
 A MEN stack application that aims to display data from the Police API in an easily accessible and visually appealing manner.
 A three person six-day group project to raise awareness of the type of crime, location and status of the criminal activity in London.
 
-![London-vice-landing](./assets/img/blog/London-vice-landing.png)
-
 Functionality
 -----------
  Register. Log In. Use the crime selection filter to see icons appear across London. A visually accessible representation of crimes and prison locations. A slide out dashboard provides detailed crime information, street view and stats about crimes in the area. Select a prison and a route will map a journey from the crime to the prison.
@@ -22,5 +20,5 @@ Technologies
 
 Links
   -----------
- [LondonVice](https://london-vice.herokuapp.com/)
- [GitHub](https://github.com/RosannaRossington/wdi-project-3)
+ [LondonVice   ](https://london-vice.herokuapp.com/)
+ [   GitHub](https://github.com/RosannaRossington/wdi-project-3)
