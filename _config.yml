@@ -1,26 +1,65 @@
-title: About Me
-description: Portfolio & Blog
-url: # site url
-avatar: /assets/img/Logo140.jpg
-favicon: #/assets/img/favicon.ico
-google_analytics: # google analytics id
-disqus_shortname: # disqus_shortname for disqus comment system
+# Site
+title: Rosanna Rossington
+description: Junior Web Developer
+url: http://rosannarossington.github.io
+logo: halve.png                                       # Site logo
+locale: en_US
 
-about:
-  - paragraph: Keen traveler, visited South America, Tokyo, New York and Europe, improving my language skills, engaging in new activities, experiencing local lifestyles and cultures. <hr>
+# Left Block Images
+background:
+  homepage: images/home.png                           # this image will be shown on homepage's left block
+  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
+  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
-  - paragraph: Fitness enthusiast always willing to try the latest health & fitness trend, or fad. Keen runner completing Half Marathons while fund raising for local charities hoping one day to run a full marathon. Practice yoga daily and enjoy a wide variety of styles including Ying and Bikram; enjoying the benefits of unplugging and balancing my love for all things related to the world of technology!<hr>
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
 
-  - paragraph: Volunteered with Raleigh International on the ICS Entrepreneur programme in Nicaragua. May 2015 – July 2015. Coaching and mentoring young entrepreneurs in two rural communities in the Northern region of Madriz to successfully launch nine new businesses. Leading a team of Spanish and English speaking volunteers. Developed facilitation skills through planning and presenting sessions in Spanish. Increased my understanding of diversity and intercultural work.<hr>
+# Google Analytics
+#google-analytics: UA-XXXXX-Y
 
-    text_align: center
-    links:
-      # - name: GeneralAssembly
-      #   url: https://generalassemb.ly/
-      #   external: true
-      # - name: GitHub
-      #   url: https://github.com/RosannaRossington
-      #   external: true
-      # - name: LinkedIn
-      #   url: https://uk.linkedin.com/in/rosannarossington
-      #   external: true
+# Social Links
+#email:             email
+#google.plus:        username
+twitter:            username
+#facebook:           username
+github:             https://github.com/RosannaRossington
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+#behance:           username
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]

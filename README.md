@@ -1,67 +1,23 @@
-Book
-====
+# Halve  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)
 
-Book, a simple Jekyll theme. [Demo](http://kkninjae.github.io/book/)
+This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
 
-### Screenshots
+To learn how to install and use this theme check out the [installation guide](http://taylantatli.me/Halve/halve-theme/) for more information.
 
-![](http://kkninjae.github.io/book/assets/img/mobile.jpg)
+If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
 
-![](http://kkninjae.github.io/book/assets/img/desktop.jpg)
+## Preview   
+![screenshot of Halve](/images/halve-home-image.png)
 
-![](http://kkninjae.github.io/book/assets/img/404.jpg)
+See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.
 
-### Features
+# Credits
+- Original Work: [Vangelis Tzortzis](https://github.com/srekoble)  
+- Sample Posts and some code examples: [Michael Rose](https://github.com/mmistakes/)
+- Images: [Unsplash](https://unsplash.com/) and [Lorem Pixel](http://lorempixel.com)
 
-* Responsive layout and mobile first
-* Customized [404](http://kkninjae.github.io/book/hehe) page
-* Footer link is the back-home link
-
-### Get started
-
-1.  fork the [repo](https://github.com/kkninjae/book/fork).
-2.  clone `git clone https://github.com/username/book`
-3.  run `jekyll serve -w`
-
-[http://localhost:4000](http://localhost:4000) should be ready.
-
-Customization
--------------
-
-### _config.yml file
-
-* title: site name
-* description: site description
-* url: site url
-* avatar: absolute path of avatar which is a picture (140px * 140px) on the index page.
-* favicon: absolute path of site favicon
-* google_analytics: id for google analystics
-* disqus_shortname: shortname of disque comment system
-* about: content on the about page.
-  you can write more than one paragraph but the format should be like the original one.
-  the special word `?link?` will be replaced by one of the links which are listed under links.
-
-### warning
-
-Please do not delete the first two lines of style.css file.
-
-End.
-----
-
-If you like it, [star](https://github.com/kkninjae/book) it.
-
-If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).
-
-Open Sources
-------------
-
-The following open sources have been used in this project.
-
-* [Google Fonts](https://www.google.com/fonts)
-* [jQuery](https://jquery.com/)
-* [highlight.js](https://highlightjs.org/)
-
-License
--------
-
-[MIT](./LICENSE)
+### Others
+- [Jekyll](http://jekyllrb.com/)
+- [jQuery](http://jquery.com/)
+- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
+- [FitVids.JS](http://fitvidsjs.com/)
