@@ -9,13 +9,6 @@ img:/img/yellow.jpg
 A MEN stack application that aims to display data from the Police API in an easily accessible and visually appealing manner.
 A three person six-day group project to raise awareness of the type of crime, location and status of the criminal activity in London.
 
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
-
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>

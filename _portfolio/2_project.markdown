@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Project 2 WDI 
+title:  Project 2 
 description: Mudita
 img:/img/blue.jpg
 <!-- redirect: https://unsplash.com -->
@@ -8,13 +8,6 @@ img:/img/blue.jpg
 
 A Rails application with PostgreSQL that brings a social aspect to shopping online.
 An individual five-day project that allows you to share links to products you think would suit a friend.
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
 
 
 <div class="img_row">
