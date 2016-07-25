@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Project
-description: another without an image
+title: Project 4
+description: Providence
 img: /img/green.jpg
 ---
 

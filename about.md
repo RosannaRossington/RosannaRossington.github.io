@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg">
+<!-- <img class="col one right" src="/img/prof_pic.jpg"> -->
 
 <br/>
 My name is Rosanna Rossington. Having worked in ecommerce roles using HTML and CSS and produced a theoretical website for Chanel in my dissertation, I have always been intrigued by how technology can be used to merge the online and offline worlds. Eager to be able to create these ideas and see a project through to completion I decided <a class="link-1" href="https://generalassemb.ly/" target="_blank">General Assembly</a> was the perfect environment for me to begin my career as a Web Developer. 

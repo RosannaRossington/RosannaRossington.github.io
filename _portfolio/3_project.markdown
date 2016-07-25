@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Project 3 WDI 
+title:  Project 3 
 description: London Vice
-img:/img/yellow.jpg
+img: /img/yellow.jpg
 <!-- redirect: https://unsplash.com -->
 ---
 
