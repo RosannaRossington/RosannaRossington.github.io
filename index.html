@@ -1,12 +1,24 @@
 ---
-layout: page
+layout: default
 ---
-<div class="index-wrapper">
-  <a class="link-1" href="{{ site.posts[0].url }}">post</a> /
-  <a class="link-1" href="/about/">about</a> /
+
+<div class="header-bar">
+  <h1>*folio</h1>
+  <h2>simple whitespace theme</h2>
+  <br/>
+  <hr>
+  <br/>
 </div>
 
 
-<div class="homePage-wrapper">
-My name is Rosanna Rossington. Having worked in ecommerce roles using HTML and CSS and produced a theoretical website for Chanel in my dissertation, I have always been intrigued by how technology can be used to merge the online and offline worlds. Eager to be able to create these ideas and see a project through to completion I decided <a class="link-1" href="https://generalassemb.ly/" target="_blank">General Assembly</a> was the perfect environment for me to begin my career as a Web Developer. <hr> <p><a class="nav" href="https://github.com/RosannaRossington" target="_blank">GitHub | </a><a class="nav" href="https://uk.linkedin.com/in/rosannarossington" target="_blank"> LinkedIn</a></p>
-</div>
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
+      </li>
+    {% endfor %}
+</ul>
