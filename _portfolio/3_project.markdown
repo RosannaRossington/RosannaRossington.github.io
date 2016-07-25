@@ -1,14 +1,13 @@
 ---
 layout: post
-title: Project
-description: a project that redirects to another website
+title:  Project 2 WDI 
+description: Mudita
 img:
-redirect: https://unsplash.com
+<!-- redirect: https://unsplash.com -->
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+A Rails application with PostgreSQL that brings a social aspect to shopping online.
+An individual five-day project that allows you to share links to products you think would suit a friend.
 
 	---
 	layout: post
@@ -24,7 +23,9 @@ To give your project a background in the portfolio page, just add the img tag to
 	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+	Functionality
+
+	See something that would look great on a friend. Find a username paste in a product page URL. Send and check your Inbox too to see what recommendations you have and upload a picture wearing your new purchase.
 </div>
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
@@ -32,8 +33,7 @@ To give your project a background in the portfolio page, just add the img tag to
 <div class="col three caption">
 	This image can also have a caption. It's like magic. 
 </div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+A Ruby on Rails application that uses the Devise gem to setup an authentication process to register, login and log out users (creating and destroying sessions). Created a PostgreSQL database performing SQL queries, to list and register users, create recommendations and add comments. Managed the creation of tables and alterations using migrations to add functionality such as user profile images and comments to recommendation feeds. The Carrierwave gem allows users to upload a profile picture, with a default image loaded if the user chooses not to, and style pictures in the feed too. The main functionality is due to the Gastly gem that takes screenshots of web pages using built-in Phantom.js and MiniMagick to scrape the inputted URL. The application customises templates from Foundation styled using SCSS and SASS with JavaScript and jQuery to add style features too.
 
 
 <div class="img_row">
@@ -48,9 +48,5 @@ You can also put regular text between your rows of images. Say you wanted to wri
 <br/><br/><br/>
 
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>
+A Rails application with PostgreSQL that brings a social aspect to shopping online.
+An individual five-day project that allows you to share links to products you think would suit a friend.
