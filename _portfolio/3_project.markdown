@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Project 2 WDI 
+title:  Project 3 WDI 
 description: Mudita
 img:
 <!-- redirect: https://unsplash.com -->
 ---
 
-A Rails application with PostgreSQL that brings a social aspect to shopping online.
-An individual five-day project that allows you to share links to products you think would suit a friend.
+A MEN stack application that aims to display data from the Police API in an easily accessible and visually appealing manner.
+A three person six-day group project to raise awareness of the type of crime, location and status of the criminal activity in London.
 
 	---
 	layout: post
@@ -25,7 +25,7 @@ An individual five-day project that allows you to share links to products you th
 <div class="col three caption">
 	Functionality
 
-	See something that would look great on a friend. Find a username paste in a product page URL. Send and check your Inbox too to see what recommendations you have and upload a picture wearing your new purchase.
+	Register. Log In. Use the crime selection filter to see icons appear across London. A visually accessible representation of crimes and prison locations. A slide out dashboard provides detailed crime information, street view and stats about crimes in the area. Select a prison and a route will map a journey from the crime to the prison.
 </div>
 <div class="img_row">
 	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
@@ -33,7 +33,7 @@ An individual five-day project that allows you to share links to products you th
 <div class="col three caption">
 	This image can also have a caption. It's like magic. 
 </div>
-A Ruby on Rails application that uses the Devise gem to setup an authentication process to register, login and log out users (creating and destroying sessions). Created a PostgreSQL database performing SQL queries, to list and register users, create recommendations and add comments. Managed the creation of tables and alterations using migrations to add functionality such as user profile images and comments to recommendation feeds. The Carrierwave gem allows users to upload a profile picture, with a default image loaded if the user chooses not to, and style pictures in the feed too. The main functionality is due to the Gastly gem that takes screenshots of web pages using built-in Phantom.js and MiniMagick to scrape the inputted URL. The application customises templates from Foundation styled using SCSS and SASS with JavaScript and jQuery to add style features too.
+Built on a MEN stack JavaScript framework using Bower LondonVice uses JWT Authentication supported by Passport.io to ensure users are saved securely in the database. This application makes a Jake request to the London PoliceAPI about crimes that took place in February 2015 and loops through to display every five hundredth crime on the map of London. On click of each crime icon a slide out dashboard provides extra information. Set up using the Google Map API this enables the application to include StreetView and by utilising the API’s Direction Service and Geometry Library libraries the user can see a route from crime to prison too. Highcharts was used to set up interactive charts to visually represent crimes in a specific radius of the selected crime. LondonVice uses Snazzy Maps and customises Bootstrap templates using CSS and icons from Noun Project.
 
 
 <div class="img_row">
