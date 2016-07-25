@@ -52,9 +52,4 @@ Links
 [Providence   ](https://the-providence.herokuapp.com/)
 [   GitHub](https://github.com/RosannaRossington/wdi-project-4)
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
 
-	<div class="img_row">
-	  <img class="col two" src="/img/red.jpg"/>
-	  <img class="col one" src="/img/yellow.jpg"/>
-	</div>
