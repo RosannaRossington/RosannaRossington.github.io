@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /poetry/
 title: poetry
@@ -12,4 +12,4 @@ description: Showcase your writing, short stories, or poems. Replace this text w
         <p class="post-meta">{{ poem.date | date: '%B %-d, %Y — %H:%M' }}</p>
       </li>
 {% endfor %}
-</ul>
+</ul> -->
