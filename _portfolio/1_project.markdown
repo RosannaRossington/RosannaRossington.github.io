@@ -2,7 +2,7 @@
 layout: post
 title: Project 1 
 description: What colour is the text?
-img: /img/12.jpg
+img: /img/red.jpg
 ---
 
 A single page JavaScript game application to keep your mind sharp. An individual four-day project that tests the brain using colours and distractions to force you to think hard in a limited time period before you give your answer.
@@ -16,15 +16,15 @@ Links
 
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+  <img class="col one" src="{{ site.baseurl }}/img/portfolio/Project1a.png" alt="" title="home"/>
+	<img class="col one" src="{{ site.baseurl }}/img/portfolio/Project1.png" alt="" title="levels"/>
+	<img class="col one" src="{{ site.baseurl }}/img/portfolio/Project1b.png" alt="" title="example"/>
 </div>
 <div class="col three caption">
 
 </div>
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
+	<img class="col three" src="{{ site.baseurl }}/img/portfolio/5.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 	

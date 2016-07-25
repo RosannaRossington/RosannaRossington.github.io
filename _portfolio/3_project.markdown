@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Project 3 WDI 
-description: Mudita
-img:
+description: London Vice
+img:/img/yellow.jpg
 <!-- redirect: https://unsplash.com -->
 ---
 

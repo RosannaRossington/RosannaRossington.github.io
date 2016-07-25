@@ -2,7 +2,7 @@
 layout: post
 title:  Project 2 WDI 
 description: Mudita
-img:
+img:/img/blue.jpg
 <!-- redirect: https://unsplash.com -->
 ---
 
