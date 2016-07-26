@@ -11,12 +11,11 @@ An individual five-day project that allows you to share links to products you th
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/portfolio/MuditaHome.png" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }}/img/portfolio/MuditaUser.png" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/MuditaInbox.png" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/portfolio/MuditaRec.png" alt="" title="example image"/>
 </div>
 <div class="img_row">
-  <img class="col one" src="{{ site.baseurl }}/img/portfolio/MuditaWelcome.png" alt="" title="example image"/>
-  <img class="col one" src="{{ site.baseurl }}/img/portfolio/MuditaRec.png" alt="" title="example image"/>
-  <img class="col one" src="{{ site.baseurl }}/img/portfolio/MuditaInbox2.png" alt="" title="example image"/>
+  <img class="col three" src="{{ site.baseurl }}/img/portfolio/MuditaInbox.png" alt="" title="example image"/>
+  <img class="col three" src="{{ site.baseurl }}/img/portfolio/MuditaInbox2.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 </div>
