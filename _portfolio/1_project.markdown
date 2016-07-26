@@ -2,7 +2,7 @@
 layout: post
 title: Project 1 
 description: What colour is the text?
-img: /img/red.jpg
+img: /assets/img/red.jpg
 ---
 What colour is the text?
 

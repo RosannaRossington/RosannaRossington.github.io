@@ -2,7 +2,7 @@
 layout: post
 title:  Project 3 
 description: London Vice
-img: /img/yellow.jpg
+img: /assets/img/yellow.jpg
 <!-- redirect: https://unsplash.com -->
 ---
 

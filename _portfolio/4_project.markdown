@@ -2,7 +2,7 @@
 layout: post
 title: Project 4
 description: Providence
-img: /img/green.jpg
+img: /assets/img/green.jpg
 ---
 
 An AngularJS application with an Express backend using Nike’s [MSI database.](http://msi.apparelcoalition.org/#/)

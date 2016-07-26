@@ -2,7 +2,7 @@
 layout: post
 title:  Project 2 
 description: Mudita
-img: /img/blue.jpg
+img: /assets/img/blue.jpg
 ---
 
 A Rails application with PostgreSQL that brings a social aspect to shopping online.
