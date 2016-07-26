@@ -15,6 +15,8 @@ An individual five-day project that allows you to share links to products you th
 </div>
 <div class="img_row">
   <img class="col three" src="{{ site.baseurl }}/img/portfolio/MuditaInbox.png" alt="" title="example image"/>
+</div>
+<div class="img_row">
   <img class="col three" src="{{ site.baseurl }}/img/portfolio/MuditaInbox2.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
