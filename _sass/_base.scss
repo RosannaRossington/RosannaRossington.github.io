@@ -8,10 +8,14 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+/** Fonts **********************************************/
+@font-face{
+  font-family: 'Quicksand';
+  src: url(/assets/Quicksand/Quicksand-Regular.otf)
+}
 
 /** Variables **********************************************/
-$base-font-family:              Helvetica, sans-serif;
+$base-font-family:              Quicksand;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
 $vertical-spacing-unit:         40px;
