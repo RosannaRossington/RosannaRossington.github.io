@@ -11,29 +11,21 @@ A three person six-day group project to raise awareness of the type of crime, lo
 
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/London-vice-landing.png" alt="" title="example image"/>
-<!-- 	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/> -->
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/London-vice-overview.png" alt="" title="example image"/>
+	<img class="col three" src="{{ site.baseurl }}/img/portfolio/London-vice-landing.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 </div>
-<div class="img_row">
-<!-- 	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/> -->
-</div>
-<div class="col three caption">
-</div>
+
 Functionality
 
 Register. Log In. Use the crime selection filter to see icons appear across London. A visually accessible representation of crimes and prison locations. A slide out dashboard provides detailed crime information, street view and stats about crimes in the area. Select a prison and a route will map a journey from the crime to the prison.
 
 
-<!-- <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
+<div class="img_row">
+    <img class="col one" src="{{ site.baseurl }}/img/portfolio/London-vice-overview.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
-
-</div> -->
+</div>
 
 
 <br/><br/><br/>
@@ -44,4 +36,4 @@ Built on a MEN stack JavaScript framework using Bower LondonVice uses JWT Authen
 Links
 -----------
 [LondonVice   ](https://london-vice.herokuapp.com/)
-[   GitHub](https://github.com/RosannaRossington/wdi-project-3)
+[GitHub](https://github.com/RosannaRossington/wdi-project-3)
