@@ -10,9 +10,9 @@ An AngularJS application with an Express backend using Nike’s [MSI database.](
 An independent six-day project to raise awareness regarding the environmental impact of materials used in products on Net-a-Porter.com.
 
 <div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/Providence.png" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/portfolio/Providence2.png" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img//portfolio/Providence3.png" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/assets/img/portfolio/Providence.png" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/assets/img/portfolio/Providence2.png" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/assets/img/portfolio/Providence3.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 </div>

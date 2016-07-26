@@ -11,7 +11,7 @@ A three person six-day group project to raise awareness of the type of crime, lo
 
 
 <div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/portfolio/London-vice-landing.png" alt="" title="example image"/>
+	<img class="col three" src="{{ site.baseurl }}/assets/img/portfolio/London-vice-landing.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 </div>
@@ -22,7 +22,7 @@ Register. Log In. Use the crime selection filter to see icons appear across Lond
 
 
 <div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/img/portfolio/London-vice-overview.png" alt="" title="example image"/>
+    <img class="col one" src="{{ site.baseurl }}/assets/img/portfolio/London-vice-overview.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 </div>

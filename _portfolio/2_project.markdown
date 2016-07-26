@@ -8,7 +8,7 @@ img: /img/blue.jpg
 A Rails application with PostgreSQL that brings a social aspect to shopping online.
 An individual five-day project that allows you to share links to products you think would suit a friend.
 <div class="img_row">
-  <img class="col three" src="{{ site.baseurl }}/img/portfolio/MuditaWelcome.png" alt="" title="example image"/>
+  <img class="col three" src="{{ site.baseurl }}/assets/img/portfolio/MuditaWelcome.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
   
@@ -20,10 +20,10 @@ An individual five-day project that allows you to share links to products you th
   See something that would look great on a friend. Find a username paste in a product page URL. Send and check your Inbox too to see what recommendations you have and upload a picture wearing your new purchase.
 
 <div class="img_row">
-  <img class="col three" src="{{ site.baseurl }}/img/portfolio/MuditaInbox.png" alt="" title="example image"/>
+  <img class="col three" src="{{ site.baseurl }}/assets/img/portfolio/MuditaInbox.png" alt="" title="example image"/>
 </div>
 <div class="img_row">
-  <img class="col three" src="{{ site.baseurl }}/img/portfolio/MuditaInbox2.png" alt="" title="example image"/>
+  <img class="col three" src="{{ site.baseurl }}/assets/img/portfolio/MuditaInbox2.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 </div>
@@ -34,8 +34,8 @@ A Ruby on Rails application that uses the Devise gem to setup an authentication 
 
 
 <div class="img_row">
-  <img class="col two" src="{{ site.baseurl }}/img/portfolio/MuditaUser.png" alt="" title="example image"/>
-  <img class="col two" src="{{ site.baseurl }}/img/portfolio/MuditaRec.png" alt="" title="example image"/>
+  <img class="col two" src="{{ site.baseurl }}/assets/img/portfolio/MuditaUser.png" alt="" title="example image"/>
+  <img class="col two" src="{{ site.baseurl }}/assets/img/portfolio/MuditaRec.png" alt="" title="example image"/>
 </div>
 
 
