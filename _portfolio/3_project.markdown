@@ -22,7 +22,7 @@ Register. Log In. Use the crime selection filter to see icons appear across Lond
 
 
 <div class="img_row">
-    <img class="col one" src="{{ site.baseurl }}/assets/img/portfolio/London-vice-overview.png" alt="" title="example image"/>
+    <img class="col three" src="{{ site.baseurl }}/assets/img/portfolio/London-vice-overview.png" alt="" title="example image"/>
 </div>
 <div class="col three caption">
 </div>
@@ -34,6 +34,7 @@ Technologies
 Built on a MEN stack JavaScript framework using Bower LondonVice uses JWT Authentication supported by Passport.io to ensure users are saved securely in the database. This application makes a Jake request to the London PoliceAPI about crimes that took place in February 2015 and loops through to display every five hundredth crime on the map of London. On click of each crime icon a slide out dashboard provides extra information. Set up using the Google Map API this enables the application to include StreetView and by utilising the API’s Direction Service and Geometry Library libraries the user can see a route from crime to prison too. Highcharts was used to set up interactive charts to visually represent crimes in a specific radius of the selected crime. LondonVice uses Snazzy Maps and customises Bootstrap templates using CSS and icons from Noun Project.
 
 Links
------------
-[LondonVice   ](https://london-vice.herokuapp.com/)
+
+[LondonVice](https://london-vice.herokuapp.com/)
+
 [GitHub](https://github.com/RosannaRossington/wdi-project-3)
